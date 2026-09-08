@@ -1,0 +1,4 @@
+#Aim=write a python program to convert temperature from celsius to fahrenheit.
+celsius=int(input("Enter temperature in celsius:"))
+fahrenheit=(celsius*9/5)+32
+print("Temperature in fahrenheit is:",fahrenheit)
