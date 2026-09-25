@@ -1,0 +1,5 @@
+p=int(input("Enter the principal amount: "))
+r=float(input("Enter the rate of interest: "))
+t=int(input("Enter the time in years: "))
+A=(1+r/100)**t
+print(f"The compound interest is {A}")
