@@ -1,0 +1,14 @@
+#identity operators exercise
+a=[1,2,3]
+b=a
+result=b is a # is identity operator
+answer1=a is not b # is identity operator  
+print("result of",b,"is",a,"is not",result)
+print("result of",a,"is not",b,"is",answer1)
+
+c=[1,2,3]
+d=[1,2,3]
+result=d is c# is identity operator
+answer2=c is not d # is identity operator
+print("result of",d,"is",c,"is not",result)
+print("result of",c,"is not",d,"is",answer2)
